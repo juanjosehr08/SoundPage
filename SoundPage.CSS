@@ -1,29 +1,25 @@
 
 
-body{background-color: rgb(192, 202, 212)}
-
-#my-name
-{ text-align: left;
-    color:rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    
-
-    border: 1mm solid rgb(27, 49, 63);
-    display: inline
+body{
+    background-image: url("https://images.pexels.com/photos/1791/vintage-music-white-sound.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+   
 }
 
 
-     
+#my-name{ 
+    color:rgb(248, 242, 242);
+    font-family:helvetica;
+ 
+    border: 1mm solid rgb(240, 227, 227);
+    border-radius: 12px;
+    display: inline;
+    filter: blur(0.8px);
+    margin-left: 5%;
+}
+.lists {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(248, 242, 242, 0.925);
+    
+    
 
-
-h2{ text-align: left;
-    color: rgb(107, 107, 107);}
-
-.Comp
-{color: BurlyWood;}
-.Lim
-{color: gold;}
-.Exp
-{color: rgb(172, 172, 59)}
-.Gat
-{color: rgb(122, 26, 55);}
+}
