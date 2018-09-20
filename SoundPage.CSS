@@ -11,10 +11,6 @@
     
     /*border-top-right-radius: 25%;*/
     
-    
-
-
-
 }
 
 
@@ -59,4 +55,10 @@ ul li{
 
     cursor: pointer;
     
+}
+
+#copyright{
+    font-family: roboto;
+    font-size: 80%;
+    text-emphasis: 90px;
 }
