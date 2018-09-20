@@ -1,32 +1,15 @@
 
-#imagen{
-    float: left;
-    max-width: 40%;
-    border: 10px solid #f9f9f9;
+
+#backgroundpicture{
     
-    
+    border: inset rgb(228, 235, 228) 2px;
+    border-top-left-radius: 25%;
+    background-size: cover;   
 }
-#sideImage{
-    
-    
-    /*border-top-right-radius: 25%;*/
-    
-}
-
-
-
-
-
-body{
-    background-color: #f9f9f9;
-}
-
-
-
-
 
 #my-name{ 
-    /*make the logo color as the color of the vinyl like it has a carving*/
+    text-align: center;
+    background-position: 3ch 4ch;
     color:#f2f5f2;
     font-family:helvetica;
     text-shadow: 0.1ch 0.1ch rgb(82, 82, 82);
@@ -35,30 +18,43 @@ body{
   
     border-radius: 40px;
     display: inline;
-    margin-left: 5%;
+  
+}
+.listas{
+    text-align: right;
 
 }
-ul li{
+
+li{
     font-size: 18px;
     font-family: roboto;
-    font-weight: 100;
-   
-    display: inline;
-    color: rgba(153, 153, 153, 0.089);
-    list-style: none; 
-    padding: 30px 40px 5px;
-    align-items: left;
-    padding-block-end: 5px;
-    text-shadow: 2px 2px #535353;
-}
-#about{
 
-    cursor: pointer;
+    display: inline;
+    color: #979CA0;
     
 }
+#eachList{
+    cursor: pointer;
+ 
+    margin-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+   
+
 
 #copyright{
     font-family: roboto;
     font-size: 80%;
-    text-emphasis: 90px;
+
+    
+}
+footer{
+    text-align: center;
+    padding: 10%;
+}
+.footers{
+    padding: 1% 1% 0% 1%;
+
 }
