@@ -3,8 +3,8 @@
 #backgroundpicture{
 
     align-self: center;
-    border-radius: 5%;
-    z-index: -4;
+    border-radius: 0%;
+
     
 }
 
@@ -59,11 +59,11 @@ li{
 
     
 }
-footer{
+#footer1{
     text-align: center;
     padding: 10%;
 }
-.footers{
+.SocialLogos{
     padding: 1% 1% 0% 1%;
 
 }
