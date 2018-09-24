@@ -1,0 +1,69 @@
+
+
+#backgroundpicture{
+
+    align-self: center;
+    border-radius: 5%;
+    z-index: -4;
+    
+}
+
+.laseccion{
+    
+    
+}
+
+
+
+
+#my-name{ 
+   
+    text-align: center;
+    color:#f2f5f2;
+    font-family:helvetica;
+    text-shadow: 0.1ch 0.1ch rgb(82, 82, 82);
+ 
+ 
+    border-radius: 30px;
+    
+}
+
+.listas{
+    text-align: right;
+    padding-left: 50px; 
+}
+
+li{
+    font-size: 18px;
+    font-family: roboto;
+
+    display: inline;
+    color: #202020;
+    
+}
+#eachList{
+    cursor: pointer;
+ 
+    margin: 50px;
+    
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+   
+
+
+#copyright{
+    font-family: roboto;
+    font-size: 80%;
+
+    
+}
+footer{
+    text-align: center;
+    padding: 10%;
+}
+.footers{
+    padding: 1% 1% 0% 1%;
+
+}
