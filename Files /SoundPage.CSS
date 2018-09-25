@@ -5,12 +5,13 @@
 }
 
 body{
-    margin: 0;
+    margin: 0px;
 }
 
 
 #backgroundpicture{
-    border-radius: 0%; 
+    border-radius: 0%;
+
 }
 
 #my-name{ 
@@ -23,27 +24,30 @@ body{
 }
 
 
- 
-.listas{
-    text-align: right;
-}
 
-li{
+
+.listas li{
+    
+    text-align: right;
     font-size: 18px;
     display: inline;
     color: #202020;
-}
-    
-    
-
-
-.eachList{
-    cursor: pointer;
     margin: 50px;
     padding-top: 50px;
     padding-bottom: 30px;
+    padding-left: 90px;
+    padding-right: 99px;
 }
- 
+a:link{
+    color: gray;
+}
+a:visited{color: red;}
+a:hover{
+    border: solid rgb(15, 150, 94) 3px;}
+a:active{color: blue;}
+#backgroundpicture:hover {
+    opacity: 10;}
+a:focus{color: rgb(224, 224, 224); background-color:gray;}
     
     
 .socialMedia{
