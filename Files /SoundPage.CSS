@@ -23,7 +23,6 @@ body{
 }
 
 
-
  
 .listas{
     text-align: right;
@@ -40,13 +39,13 @@ li{
 
 .eachList{
     cursor: pointer;
- 
     margin: 50px;
-    
     padding-top: 50px;
     padding-bottom: 30px;
-    
 }
+ 
+    
+    
 .socialMedia{
     padding: 1% 1% 0% 1%;
     align-items: center;
@@ -61,4 +60,6 @@ li{
 }
 .bodytags{
     text-align: center;
+    border-top:2px solid rgb(194, 194, 194);
+
 }
