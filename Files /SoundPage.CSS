@@ -2,6 +2,7 @@
     background-color: rgb(30, 45, 54);
     padding: 0;
     font-family: roboto, helvetica, sans-serif;
+    font-size: 1em;
 }
 main, header{
     width: 90%;
@@ -10,8 +11,12 @@ main, header{
 /* 1 em = 16px */
 
 #backgroundpicture{
-    border-radius: 0%;
-    /* margin: 0% 1% 0% 1%; */
+    
+    
+
+    
+    
+    margin: -1% 0% 0% -1%;
    
     
     
@@ -22,7 +27,7 @@ main, header{
    
     text-align: center;
     color:#f2f5f2;
-    font-size: 1em;
+    font-size: 2em;
 
 }
 
@@ -48,7 +53,9 @@ a:link{
 }
 a:visited{color: red;}
 a:hover{
-    border: solid rgb(0, 0, 0) 3px;}
+    color: 4f4a44;
+    opacity: 0.6;
+}
 a:active{color: blue;}
 #backgroundpicture:hover {
     opacity: 10;}
