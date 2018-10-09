@@ -1,65 +1,67 @@
 *{
-    background-color: rgb(30, 45, 54);
-    padding: 0;
-    font-family: roboto, helvetica, sans-serif;
-    font-size: 1em;
-}
-main, header{
-    width: 90%;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font: 1em/1.5 roboto, helvetica, sans-serif;
+    font-weight: bolder;
+    
+    /* font-size: 1em;
+    line-height: 1.5; */
+    /* 1 em = 16px */
 }
 
-/* 1 em = 16px */
 
 #backgroundpicture{
-    
-    
-
-    
-    
     margin: -1% 0% 0% -1%;
-   
-    
-    
-
 }
 
 #my-name{ 
    
     text-align: center;
-    color:#f2f5f2;
     font-size: 2em;
 
 }
 
 
-
-
 .listas li{
-    opacity: 1;
+    
     text-align: right;
     font-size: 1em;
     display: inline;
-    color: #202020;
-    margin: 50px;
+
+
+    margin: 28px;
     padding-top: 0px;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
+
+
+
+
 /* user's function */
 a:link{
-    color: gray;
+    color: #444F4F;
+    text-decoration: none;
 }
-a:visited{color: red;}
+a:visited{
+    color: rgb(141, 92, 92);
+}
+
 a:hover{
-    color: 4f4a44;
+    color: rgb(141, 92, 92);
     opacity: 0.6;
+    background: none;
 }
-a:active{color: blue;}
-#backgroundpicture:hover {
-    opacity: 10;}
-a:focus{color: rgb(224, 224, 224); background-color:gray;}
+a:focus{color: rgb(165, 165, 165);
+}
+
+
+
+
+
+
     
     
 .socialMedia{
@@ -75,7 +77,10 @@ a:focus{color: rgb(224, 224, 224); background-color:gray;}
     text-align: center;
 }
 .bodytags{
+    color:#444F4F;
     text-align: center;
-    border-top:2px solid rgb(194, 194, 194);
-
+    border-top:6px solid rgb(255, 255, 255);
+}
+#about{
+background-color: antiquewhite;
 }
