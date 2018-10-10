@@ -1,5 +1,6 @@
 *{
     background-color: rgb(255, 255, 255);
+    /* background: url(../Images/store.jpeg); */
     margin: auto;
     font: 1em/2 roboto, helvetica, sans-serif;
     font-weight: bolder;
@@ -10,9 +11,13 @@
 }
 
 .logo{
-    margin: -2%;
-    padding: -2%;
+    margin: 0% 0% -10% 0%;
+    text-align: center;
 }
+    
+  
+
+
 
 
 
@@ -22,6 +27,7 @@ p{
 }
 #backgroundpicture{
     margin: 0% 0% 0% -1%;
+    border-bottom: black 2px solid;
 }
 
 /* #my-name{ 
@@ -30,30 +36,38 @@ p{
     font-size: 2em;
 } */
 
+.listas{
+    
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
+.calloutRight{
+    text-align: right;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.calloutLeft{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
 .listas li{
     
     font-size: 1em;
     display: inline-block;
-    
-    border-left: solid black 1px; 
-
-
-    margin: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    border: solid black 2px; 
+    margin-right: 80px;
+    margin-left: 80px;
+    padding:  
 }
 
-.callout{
-    
-}
+
 
 
 h1{
     font-size: 2em;
-    background-color: #d4cac4;
+    
     
 
 }
@@ -79,12 +93,16 @@ a:focus{color: rgb(165, 165, 165);
 /* ______________________ */
 
 .description{
-    text-align: center;
+    
     margin: 1% 10% 5% 10%;
-    background-color: #AF9A8A;
+    text-align: center;
+    background-color: rgb(226, 222, 218);
     padding: 80px;
     
-    border: 10px solid #3C3633;
+    border-top: 10px solid rgb(43, 38, 35);
+    border-bottom: 10px solid rgb(43, 38, 35);
+
+  
     /* border-width: 10px; 
     border-style: solid;
     border-color: #3C3633; */
@@ -93,7 +111,8 @@ a:focus{color: rgb(165, 165, 165);
 .bodytags{
     color:#444F4F;
     text-align: center;
-    border-top:6px solid rgb(255, 255, 255);
+    /* border-top:6px solid rgb(255, 255, 255); */
+    
 }
 
     
@@ -101,9 +120,13 @@ a:focus{color: rgb(165, 165, 165);
 .socialMedia{
     padding: 1% 1% 0% 1%;
     align-items: auto;
+}
+.SocialLogos{
+    margin: 5px;
+    padding: 5px 10px 10px 5px;
+}    
     
 
-}
 .mainFooter{
     padding-top: 400px;
     padding-bottom: 0px;
