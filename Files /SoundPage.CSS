@@ -1,9 +1,12 @@
 *{
-    background-color: rgb(255, 255, 255);
-    /* background: url(../Images/store.jpeg); */
+    
+    
+    
     margin: auto;
     font: 1em/2 roboto, helvetica, sans-serif;
     font-weight: bolder;
+    box-sizing: border-box;
+    
     
     /* font-size: 1em;
     line-height: 2; */
@@ -15,20 +18,27 @@
     text-align: center;
 }
     
-  
+.header{
+    background-image: url("../Images/store.jpeg");
+    padding-bottom: 900px;
+    background-size: cover;
+    border-bottom: rgb(0, 0, 0) 2px solid;
+    margin: 2% 0% 0% -1%;
+
+    
+}
 
 
-
+main{
+    background-color: antiquewhite;
+}
 
 
 p{
-    
     font-size: 1.18em;
 }
-#backgroundpicture{
-    margin: 0% 0% 0% -1%;
-    border-bottom: black 2px solid;
-}
+    
+
 
 /* #my-name{ 
    
@@ -38,28 +48,36 @@ p{
 
 .listas{
     
-    margin-top: -10%;
-    margin-bottom: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+    
 }
-.calloutRight{
+#calloutRight {
     text-align: right;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-right: 5%;
+  
+    
 }
-.calloutLeft{
+#calloutLeft{
     text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 2%;
+    margin-bottom: -3%;
+
+
+    
 }
 
 .listas li{
     
     font-size: 1em;
     display: inline-block;
-    border: solid black 2px; 
-    margin-right: 80px;
-    margin-left: 80px;
-    padding:  
+    border: solid #2D2E32 3px; 
+    
+   
+    padding-left: 25px;
+    padding-right: 25px;
+    
 }
 
 
@@ -98,6 +116,7 @@ a:focus{color: rgb(165, 165, 165);
     text-align: center;
     background-color: rgb(226, 222, 218);
     padding: 80px;
+    max-width: 1800px;
     
     border-top: 10px solid rgb(43, 38, 35);
     border-bottom: 10px solid rgb(43, 38, 35);
