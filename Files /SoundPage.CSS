@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
     margin: auto;
 }
 
@@ -15,7 +16,43 @@
 }
     
 
+=======
+    
+    
+    
+    margin: auto;
+    font: 1em/2 roboto, helvetica, sans-serif;
+    font-weight: bolder;
+    box-sizing: border-box;
+    
+    
+    /* font-size: 1em;
+    line-height: 2; */
+    /* 1 em = 16px */
+}
 
+.logo{
+    margin: 0% 0% -8% 0%;
+    text-align: center;
+}
+    
+.header{
+    background-image: url("../Images/store.jpeg");
+    background-size: 100%;
+    padding-bottom: 850px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+    
+    
+    border-bottom: rgb(0, 0, 0) 4px solid;
+    margin: 0% 0% 0% -1%;
+    
+    
+>>>>>>> ed7081adba35c8047070dc3c0b43f780e552a158
+
+    
+}
 
 .header{
     background-image: url(../Images/store.jpeg);
@@ -37,7 +74,11 @@
 
 
 
+main{
+    background-color: antiquewhite;
+}
 
+<<<<<<< HEAD
     
 
 .skip-links-left{
@@ -62,10 +103,57 @@
 .skip-links-right{
 font-size: 18px;
 border: solid black 2px;
+=======
+p{
+    font-size: 1.18em;
+}
+/* #my-name{ 
+   
+    text-align: center;
+    font-size: 2em;
+} */
+
+    
+
+
+
+.listas{
+    
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+    
+}
+#calloutRight {
+    text-align: right;
+    margin-right: 5%;
+  
+    
+}
+#calloutLeft{
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom: -3%;
+
+
+    
+>>>>>>> ed7081adba35c8047070dc3c0b43f780e552a158
 }
 
 
     
+<<<<<<< HEAD
+=======
+    font-size: 1em;
+    display: inline-block;
+    border: solid #2D2E32 3px; 
+    
+   
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+>>>>>>> ed7081adba35c8047070dc3c0b43f780e552a158
 
 
 
@@ -125,6 +213,7 @@ a:focus{color: rgb(165, 165, 165);
     text-align: center;
     
     padding: 80px;
+    max-width: 1800px;
     
     border-top: 10px solid rgb(43, 38, 35);
     border-bottom: 10px solid rgb(43, 38, 35);
