@@ -1,21 +1,40 @@
-*{
-    background-color: rgb(255, 255, 255);
-    /* background: url(../Images/store.jpeg); */
+.body-content{
+    background-attachment: initial;
+    background-size: initial;
+    background-color: #959195;
     margin: auto;
-    font: 1em/2 roboto, helvetica, sans-serif;
-    font-weight: bolder;
+    font: 1em; /* 1 em = 16px */
+    line-height: 2;
+    font-family: roboto, helvetica, sans-serif;
+    font-weight: lighter;
+   
+}
     
-    /* font-size: 1em;
-    line-height: 2; */
-    /* 1 em = 16px */
+    
+
+
+.header{
+    background-image: url(../Images/store.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 100%;
+    margin: auto;
+    
+    
+
+     
+    background-position-x: center;   
+    padding-bottom: 1850px;
+    max-width: 1850px;
+
+
 }
 
-.logo{
-    margin: 0% 0% -10% 0%;
-    text-align: center;
-}
+
+
     
-  
+
+
 
 
 
@@ -25,47 +44,50 @@ p{
     
     font-size: 1.18em;
 }
-#backgroundpicture{
-    margin: 0% 0% 0% -1%;
-    border-bottom: black 2px solid;
-}
 
-/* #my-name{ 
-   
+
+
+
+.main-content,
+.main-footer{
     text-align: center;
-    font-size: 2em;
-} */
-
-.listas{
+    margin: auto;
     
-    margin-top: -10%;
-    margin-bottom: 5%;
 }
-.calloutRight{
-    text-align: right;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.calloutLeft{
+
+.skip-links-left{
     text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.listas li{
-    
-    font-size: 1em;
     display: inline-block;
-    border: solid black 2px; 
-    margin-right: 80px;
-    margin-left: 80px;
-    padding:  
+
+}
+
+.logo{
+    margin: 0% 0% -10% 0%;
+    text-align: center;
+}
+    
+.skip-links-right{
+    text-align: right;
+    display: inline-block;
+
+}
+.skip-links-left,
+.skip-links-right{
+font-size: 18px;
+border: solid black 2px;
 }
 
 
 
 
-h1{
+
+
+
+
+
+
+.main-titles{
+    text-align: center;
     font-size: 2em;
     
     
@@ -96,7 +118,7 @@ a:focus{color: rgb(165, 165, 165);
     
     margin: 1% 10% 5% 10%;
     text-align: center;
-    background-color: rgb(226, 222, 218);
+    
     padding: 80px;
     
     border-top: 10px solid rgb(43, 38, 35);
@@ -127,10 +149,11 @@ a:focus{color: rgb(165, 165, 165);
 }    
     
 
-.mainFooter{
+.main-footer{
+    position: relative;
     padding-top: 400px;
     padding-bottom: 0px;
     border-bottom: 80px solid rgb(48, 46, 46);
-    text-align: center;
+    
 }
 
