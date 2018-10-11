@@ -1,3 +1,7 @@
+*{
+    margin: auto;
+}
+
 .body-content{
     background-attachment: initial;
     background-size: initial;
@@ -10,7 +14,7 @@
    
 }
     
-    
+
 
 
 .header{
@@ -18,57 +22,40 @@
     background-repeat: no-repeat;
     background-size: 100%;
     font-size: 100%;
-    margin: auto;
+    background-position-y: 250px;
+    background-position-x: center;   
+    padding-bottom: 1850px;
+    max-width: 1850px;
+    
+}
+    
+    
     
     
 
      
-    background-position-x: center;   
-    padding-bottom: 1850px;
-    max-width: 1850px;
 
-
-}
 
 
 
     
-
-
-
-
-
-
-
-p{
-    
-    font-size: 1.18em;
-}
-
-
-
-
-.main-content,
-.main-footer{
-    text-align: center;
-    margin: auto;
-    
-}
 
 .skip-links-left{
     text-align: left;
-    display: inline-block;
+    display: inline;
+    margin-left: 9.23%;
 
 }
 
 .logo{
-    margin: 0% 0% -10% 0%;
+    
     text-align: center;
 }
     
 .skip-links-right{
     text-align: right;
-    display: inline-block;
+    display: inline;
+    margin-right: 9.23%;
 
 }
 .skip-links-left,
@@ -78,11 +65,29 @@ border: solid black 2px;
 }
 
 
+    
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content,
+.main-footer{
+    text-align: center;
+    margin: auto;}
 
 
 
@@ -129,10 +134,14 @@ a:focus{color: rgb(165, 165, 165);
     border-style: solid;
     border-color: #3C3633; */
 }
+p{
+    
+    font-size: 1.18em;
+}
 
 .bodytags{
     color:#444F4F;
-    text-align: center;
+    
     /* border-top:6px solid rgb(255, 255, 255); */
     
 }
